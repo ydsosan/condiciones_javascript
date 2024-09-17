@@ -1,0 +1,38 @@
+/*Parte 1*/
+div {
+    border: none
+}
+
+div.red {
+    border: 2px solid red;
+}
+
+div img {
+    width: 50%;
+}
+/*Parte 2*/
+.item {
+    display: flex;
+    flex-direction: column;
+
+}
+.stickers {
+    display: flex;
+    flex-direction: row;
+}
+.stickers img {
+    width: 100%;
+    max-height: 50vh;
+    min-height: 50vh;
+
+}
+
+.sticker-footer {
+    align-items: center;
+}
+
+.texto  {
+    text-align: center;
+    font-weight: bold;
+}
+

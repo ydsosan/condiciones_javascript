@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Tarea 1</h2>
+    <!--Parte 1-->
+    <div id="color">
+        <img src="./assets/imgs/alcon.jpg" onclick="borde()" alt="">
+    </div>
+
+    <h2>Tarea 2</h2>
+    <!--Parte 2-->
+    <div class="stickers">
+        <div class="item">
+            <img src="./assets/imgs/sailormoon.png" alt="">
+            <div class="sticker-footer"><label for="n1">Cantidad de sticker</label>
+                <input type="number" id="n1" name="sticker" min="0" />
+            </div>
+        </div>
+        <div class="item">
+            <img src="./assets/imgs/vegeta.png" alt="">
+            <div class="sticker-footer"><label for="n2">Cantidad de sticker</label>
+                <input type="number" id="n2" name="sticker" min="0" />
+            </div>
+        </div>
+        <div class="item">
+            <img src="./assets/imgs/rick.png" alt="">
+            <div class="sticker-footer"><label for="n3">Cantidad de sticker</label>
+                <input type="number" id="n3" name="sticker" min="0" />
+            </div>
+        </div>
+
+    </div>
+    <div class="texto">
+        <span>Lleva un total de:</span><span id="total"></span>
+        <p id="limite_stickers">Introduce la cantidad de stickers</p>
+        <button onclick="suma()">Sumar</button>
+    </div>
+
+    <!--Parte 3-->
+    <h2>Tarea 3</h2>
+    <h2>Ingresa password</h2>
+    <form action="">
+        <select name="clave1" id="v1">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+
+        </select>
+        <select name="clave2" id="v2">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+
+        </select>
+        <select name="clave3" id="v3">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+
+        </select>
+    </form>
+    <button onclick="enviar()">Ingresar</button>
+    <span id="pass">Ingrese su clave por favor</span>
+    <script src="index.js"></script>
+</body>
+
+</html>
